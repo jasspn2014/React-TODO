@@ -1,7 +1,7 @@
 import { CustomInputContainer } from "./custom-input.styles";
 
 const CustomInput = ({ type, placeholder, handleChange, name }) => (
-  <CustomInputContainer name={name} type={type} placeholder={placeholder} onChange={handleChange} />
+  <CustomInputContainer name={name} type={type} placeholder={placeholder} onChange={handleChange} required />
 );
 
 export default CustomInput;

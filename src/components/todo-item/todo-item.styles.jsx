@@ -8,5 +8,5 @@ export const ToDoItemContainer = styled.div`
   padding: 20px;
   cursor: pointer;
 
-  ${({isDone}) => (isDone ? `background-color:black; color:white;  text-decoration: line-through; transition:all .5s ease;` : "")}
+  ${({isDone}) => (isDone ? `background-color:grey; color:white;  text-decoration: line-through; transition:all .5s ease;` : "")}
 `;
